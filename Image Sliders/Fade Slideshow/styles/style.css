@@ -1,0 +1,34 @@
+#wrapper{
+  margin: 0px auto;
+  padding: 30px: auto;
+  width:600px;
+}
+
+#slider{
+  height:400px;
+  width:600px;
+  overflow:hidden;
+}
+
+#slider>img{
+  height:400px;
+  width:600px;
+  display:none;
+
+}
+
+.slider{
+  margin: 20px;
+  color:#666;
+  text-decoration: none;
+  padding: 5px,10px;
+  background-color: #F0F0F0;
+}
+
+#Next{
+  float: right;
+}
+
+#Previous{
+  float: left;
+}

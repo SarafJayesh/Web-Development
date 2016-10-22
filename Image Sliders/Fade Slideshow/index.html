@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Image Slider</title>
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <script type="text/javascript" src="scripts/script.js" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div id="wrapper">
+      <div id="slider">
+        <img id="1" src="images/image1.jpg">
+        <img id="2" src="images/image2.png">
+        <img id="3" src="images/image3.jpg">
+        <img id="4" src="images/image4.jpg">
+      </div>
+      <a class="slider" id="Next" onclick="next(); return false;" href="#">Next</a>
+      <a class="slider" id="Previous" onclick="prev(); return false"; href="#">Previous</a>
+    </div>
+  </body>
+</html>
